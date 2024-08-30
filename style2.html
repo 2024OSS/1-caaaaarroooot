@@ -4,6 +4,130 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <style>
+            body {
+                padding: 20px;
+                margin: 0%;
+                height: 90vh;
+                width: 95vw;
+                background-color: black;
+                color: #84c754;
+                line-height: 160%;
+                font-family: "Courier New", Courier, monospace;
+            }
+            .a2 {
+                width: auto;
+                color: #84c754;
+            }
+            .a2:hover {
+                color: white;
+                cursor: pointer;
+            }
+            .a1 {
+                color: white;
+                font-weight: 400;
+                text-decoration: underline;
+            }
+            .a1:hover {
+                cursor: pointer;
+                color: #84c754;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <div style="height: 95vh; display: flex; flex-direction: column">
+            <div>
+                <h1 style="margin-bottom: 5px">Welcome to 이지윤's Homepage (22100575)</h1>
+                <p style="margin: 5px 0">Use the menu to select different Stylesheets</p>
+            </div>
+            <div style="display: flex; flex-direction: column">
+                <div
+                    style="
+                        width: 97vw;
+                        height: 170px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    "
+                >
+                    <ul style="line-height: 170%">
+                        <li class="a2">Stylesheet 1</li>
+                        <li class="a2">Stylesheet 2</li>
+                        <li>
+                            <a class="a2" href="./style1.html" style="text-decoration: none">Stylesheet 3</a>
+                        </li>
+                        <li style="color: white">
+                            <a
+                                class="a2"
+                                href="./style2.html"
+                                style="text-decoration: none; color: white; font-weight: 700"
+                                >Stylesheet 4</a
+                            >
+                        </li>
+                        <li>
+                            <a class="a2" href="./nostyle.html" style="text-decoration: none">No Stylesheet</a>
+                        </li>
+                    </ul>
+                    <div
+                        style="
+                            border: 1px solid white;
+                            border-radius: 4px;
+                            width: 350px;
+                            height: 170px;
+                            box-sizing: border-box;
+                            padding: 10px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            color: white;
+                            flex-direction: column;
+                        "
+                    >
+                        <h3 style="margin: 0">Side-Bar</h3>
+                        <p style="font-size: 13px; margin: 0; line-height: 140%">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h1>Same Page Different Stylesheets</h1>
+                    <p>
+                        This is a demonstration of how different stylesheets can change the layout of your HTML page.
+                        You can change the layout of this page by selecting different stylesheets in the menu, or by
+                        selecting one of the following links:<br />
+                        <a class="a1">Stylesheet1</a>, <a class="a1">Stylesheet2</a>,
+                        <a href="./style1.html" class="a1" style="text-decoration: underline">Stylesheet3</a>,
+                        <a href="./style2.html" class="a1" style="text-decoration: underline">Stylesheet4</a>.
+                    </p>
+                    <h2>No Styles</h2>
+                    <p>
+                        This page uses DIV elements to group different sections of the HTML page. Click here to see how
+                        the page looks like with no stylesheet:
+                        <br />
+                        <a class="a1">No Stylesheet</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                style="
+                    margin-top: 15px;
+                    padding: 10px;
+                    font-size: 10.9px;
+                    color: white;
+                    line-height: 120%;
+                    border: 1px solid white;
+                    border-radius: 4px;
+                    text-align: center;
+                "
+            >
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi.
+            </div>
+        </div>
+    </body>
 </html>
